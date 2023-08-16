@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Reviews</title>
+  </head>
+  <body class="bg-slate-100">
+<div class="flex justify-center items-center h-screen">
+  <article class="bg-white text-center flex flex-col max-w-xl p-4 rounded-lg shadow-lg">
+    <div class="flex justify-center items-center mb-4">
+      <img src="" alt="author image" id="person-img" class="w-[170px] h-[170px] object-cover rounded-full" />
+    </div>
+
+    <h4 id="author" class="text-[1.3rem] font-medium my-[.5rem] capitalize"></h4>
+    <p id="job" class="text-sky-500 uppercase mb-[.5rem]"></p>
+    <p id="info" class="text-gray-600"></p>
+
+    <div class="mt-4 text-sky-500 btn-group" >
+      <button id="next-btn" class="mx-[1rem]">
+        <i class="fa-solid fa-arrow-left"></i>
+      </button>
+      <button id="prev-btn" class="mx-[1rem]">
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </div>
+
+    <div class="mt-4">
+      <button id="random-btn" class="bg-sky-500 px-6 py-2 text-white rounded-lg">Surprise Me</button>
+    </div>
+  </article>
+</div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
